@@ -1,9 +1,3 @@
-a = None
-b = ""
-c = 1
-d = 0
-
-print(bool(a)) # True
-print(bool(b)) # False
-print(bool(c)) # True
-print(bool(d)) # False
+main_string = "Hello World!"
+second_string = main_string[:-1] + "?"
+print(second_string)
