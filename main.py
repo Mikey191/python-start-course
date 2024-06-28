@@ -1,4 +1,5 @@
-str1 = "abrakadabra"
-str2 = "br"
-print(str1.replace(str2, "rb"))
-print(str1)
+import time
+
+for i in range(10):
+    print(f"Прогресс: {i}/10", end="\r")
+    time.sleep(1)
