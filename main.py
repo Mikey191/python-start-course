@@ -33,8 +33,45 @@
 # last_char = main_str[-1]
 # print(first_char, last_char)
 
-main_str = "Hello"
-print(id(main_str))
-print(id(main_str[0]))
+# main_str = "Hello"
+# print(id(main_str))
+# print(id(main_str[0]))
 
+# main_string = "Привет, мир!"
+# reversed_string = main_string[::-1]  # Получаем строку в обратном порядке "!рим ,тевирП"
+# substring1 = main_string[4:1:-1]  # Получаем подстроку "евир"
+# substring2 = main_string[::-2] # Получаем каждый второй символ в обратном порядке
+# substring3 = main_string[1:4:-1] # Получаем пустую строку
+# print("reversed_string: ", reversed_string)
+# print("substring1: ", substring1)
+# print("substring2: ", substring2)
+# print("substring3: ", substring3)
 
+# main_str = "Hello World!"
+# number_str = "+123456"
+# sub_str = "a"
+# result_str = main_str.upper()
+# result_str = main_str.lower()
+# result_str = main_str.count(sub_str)
+# result_str = main_str.find(sub_str)
+# # result_str = main_str.index(sub_str)
+# result_str = main_str.replace(" ", "/")
+# result_str = main_str.isalpha()
+# result_str = main_str.ljust(16, ",")
+# print(result_str)
+
+# cities = "Питер,Моска,Ростов,Ставрополь,Нальчик"
+# cities_lst = cities.split(",")
+# print(cities_lst)
+
+# cities_lst = ["Питер", "Москва", "Нальчик"]
+# cities_str = ",     ".join(cities_lst)
+# print(cities_str)
+
+# main_str = "    h e l l o    "
+# result_str = main_str.replace(" ", "")
+# print(result_str)
+
+main_str = "H"
+
+print(main_str)
