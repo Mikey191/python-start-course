@@ -100,3 +100,52 @@
 # # print(f_str)
 #
 # a, b, c = "10 11 12".split()
+
+
+
+
+
+
+
+
+
+
+# my_lst = [1, 2, 3, 4, 5]
+# my_lst = []
+# my_lst = list( (1, 2, 3, 4, 5) )
+
+
+
+# my_list = list('hello')
+# print(my_list)
+#
+# my_list[10]
+# print(my_list)
+
+
+
+# my_list = [1, 2, 3, 4, 5]
+# lenght_list = len(my_list)
+# sorted_list = sorted(my_list, reverse=True)
+# flag = 6 in my_list
+# print(flag)
+
+
+# count = 2
+# str = "hello"
+#
+# print(len(str))
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+#
+# # Пример среза с двумя аргументами
+# sublist1 = numbers[2:5]
+# print(sublist1)  # [2, 3, 4]
+#
+# # Пример среза с тремя аргументами
+# sublist2 = numbers[1:8:2]
+# print(sublist2)  # [1, 3, 5, 7]
+
+numbers = [1, 2, 3, 4, 5]
+numbers[1:4] = [10, 20, 30, 40]
+print(numbers)
