@@ -72,6 +72,31 @@
 # result_str = main_str.replace(" ", "")
 # print(result_str)
 
-main_str = "H"
+# main_str = "hesdvsd world"
+# index_space = main_str.find(" ")
+# print(index_space)
+# sub_str1 = main_str[:index_space]
+# print(sub_str1)
 
-print(main_str)
+# import math
+# print(round(math.pi))
+# print(round(math.pi, 2))
+# print(math.pi)
+#
+# main_str = "hello world"
+# sub_str = main_str[:5]
+# char = main_str[0]
+# index_char = main_str.index("h")
+
+# path = r"C:\Users\whymk\Desktop\Python\PythonStartCourse\pythonProject\main.py"
+# print(path)
+
+# name = "Vasya"
+# second_name = "Oblomov"
+# age = 33
+# main_str = "My name is {width}, old {height}".format(width=a, deep=b, height=c)
+# print(main_str)
+# # f_str = f"My name is {name + ' ' + second_name}, old {age + 10}"
+# # print(f_str)
+#
+# a, b, c = "10 11 12".split()
