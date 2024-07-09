@@ -146,6 +146,8 @@
 # sublist2 = numbers[1:8:2]
 # print(sublist2)  # [1, 3, 5, 7]
 
-numbers = [1, 2, 3, 4, 5]
-numbers[1:4] = [10, 20, 30, 40]
-print(numbers)
+# numbers = [1, 2, 3, 4, 5]
+# numbers[1:4] = [10, 20, 30, 40]
+# print(numbers)
+
+print(1)
