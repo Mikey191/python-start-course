@@ -150,4 +150,44 @@
 # numbers[1:4] = [10, 20, 30, 40]
 # print(numbers)
 
-print(1)
+# a = 12
+# a = "12"
+# a = input()
+# print(a)
+
+# str = input() #получаем строку
+# print(type(str), str)
+# lst = str.split() #превращаем ее в список
+# print(type(lst), lst)
+# lst[0] = int(lst[0])
+# lst[1] = int(lst[1])
+# print(type(lst), lst)
+
+# lst = [1, 2, 3, 2, 6, 1, 10, 5]
+# lst_str = ["1", "2", "3"]
+# lst.append(5)
+# lst.insert(2, 5)
+# lst.remove(3)
+# lst_str.remove("1")
+# lst.pop()
+# number = lst.pop(0)
+# sorted(lst)
+# print(lst)
+# print(lst2)
+#
+# cities = ["Москва", "Казань", "Ярославль"]
+# city = "Ульяновск"
+#
+# print(cities)
+
+# matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# matrix[0][-1] = matrix[0][-1] + 10
+# print(matrix)
+
+# перед нотами до и фа поставить символ диеза '#'. Если число равно 1 или 4
+m = ['до', 'ре', 'ми', 'фа', 'соль', 'ля', 'си']
+a, b, c = map(int, ["1", "6", "7"])
+note_a = f"{'#' + m[a-1] if a == 1 else '#' + m[a-1] if a == 4 else m[a-1]}"
+note_b = f"{'#' + m[b-1] if b == 1 else '#' + m[b-1] if b == 4 else m[b-1]}"
+note_c = f"{'#' + m[c-1] if c == 1 else '#' + m[c-1] if c == 4 else m[c-1]}"
+print(note_a, note_b, note_c)
