@@ -185,9 +185,14 @@
 # print(matrix)
 
 # перед нотами до и фа поставить символ диеза '#'. Если число равно 1 или 4
-m = ['до', 'ре', 'ми', 'фа', 'соль', 'ля', 'си']
-a, b, c = map(int, ["1", "6", "7"])
-note_a = f"{'#' + m[a-1] if a == 1 else '#' + m[a-1] if a == 4 else m[a-1]}"
-note_b = f"{'#' + m[b-1] if b == 1 else '#' + m[b-1] if b == 4 else m[b-1]}"
-note_c = f"{'#' + m[c-1] if c == 1 else '#' + m[c-1] if c == 4 else m[c-1]}"
-print(note_a, note_b, note_c)
+# m = ['до', 'ре', 'ми', 'фа', 'соль', 'ля', 'си']
+# a, b, c = map(int, ["1", "6", "7"])
+# note_a = f"{'#' + m[a-1] if a == 1 else '#' + m[a-1] if a == 4 else m[a-1]}"
+# note_b = f"{'#' + m[b-1] if b == 1 else '#' + m[b-1] if b == 4 else m[b-1]}"
+# note_c = f"{'#' + m[c-1] if c == 1 else '#' + m[c-1] if c == 4 else m[c-1]}"
+# print(note_a, note_b, note_c)
+
+lst = [1, 3, 2]
+print(lst)
+str = f"{lst[0]} {lst[1]} {lst[2]}"
+print(str)
