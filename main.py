@@ -192,7 +192,24 @@
 # note_c = f"{'#' + m[c-1] if c == 1 else '#' + m[c-1] if c == 4 else m[c-1]}"
 # print(note_a, note_b, note_c)
 
-lst = [1, 3, 2]
-print(lst)
-str = f"{lst[0]} {lst[1]} {lst[2]}"
-print(str)
+# lst = [1, 3, 2]
+# print(lst)
+# str = f"{lst[0]} {lst[1]} {lst[2]}"
+# print(str)
+
+# lst = [ [ 1, [5, 6, 7], False ],  [2, 3, 4],  [3, 4, 5] ]
+# print(lst[0])
+# print(lst[0][1][1])
+#
+# num = "Сок"
+#
+# if num == "Чай":
+#     print("Это чай")
+# elif num == "Сок":
+#     print("Это сок")
+# elif num == "Кофе":
+#     print("Это кофе")
+# elif num == "Газировка":
+#     print("Это Газировка")
+# else:
+#     print("Это не напиток")
