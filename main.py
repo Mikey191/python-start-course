@@ -213,3 +213,27 @@
 #     print("Это Газировка")
 # else:
 #     print("Это не напиток")
+
+# a = 12
+# b = 3
+# c = 14
+#
+# if a < b:
+#     if a < c:
+#         print(a)
+#     else:
+#         print(c)
+# elif a < c:
+#     if a < b:
+#         print(a)
+#     else:
+#         print(b)
+# elif b < c:
+#     if b < a:
+#         print(b)
+#     else:
+#         print(a)
+#
+# a = 3
+# str = f"a {'четное' if a % 2 == 0 else 'нечетное'} число"
+# print(str)
