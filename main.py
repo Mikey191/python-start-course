@@ -237,3 +237,89 @@
 # a = 3
 # str = f"a {'четное' if a % 2 == 0 else 'нечетное'} число"
 # print(str)
+#
+# a = 10
+# b = 7
+# if a < 10:
+#     if b > 15:
+#         print(a, b)
+#
+# if a > 10:
+#     print(b)
+# elif b > 15:
+#     print(b)
+# else:
+#     print("ascwea")
+
+# numbers = [1, 2, 3, 4, 5]
+#
+# for num in numbers:
+#     print(num)
+
+# good_password = input("Создайте пароль: ")
+# password = input("Введите пароль: ")
+#
+# while password != good_password:
+#     print("Неверный пароль. Попробуйте еще раз.")
+#     password = input("Введите пароль: ")
+#
+# print("Доступ разрешен. Добро пожаловать!")
+
+# numbers = [10, 40, 20, 30]
+#
+# for item in numbers:
+#     print(item)
+#     item += 10
+#     print(item)
+
+# for i in range(1, 6):
+#     print(i)
+
+# word = "Hello"
+# for char in word:
+#     print(char)
+
+# fruits = ["apple", "banana", "cherry"]
+# str = "Hello"
+#
+# for index, fruit in enumerate(str):
+#     print("Index:", index, "Fruit:", fruit)
+#
+# original_list = ["Hello", "World", "Python"]
+# new_list = []
+#
+# for string in original_list:
+#     first_letter = string[0]
+#     new_list.append(first_letter)
+#
+# print(new_list)
+
+# r = range(9)
+# lst = list(r)
+# print(lst)
+# lst = ["Hello", "Python", "Phone", "Pc", "numbers", "digits", "fruits", "honor"]
+# for i in range(2, 8):
+#     print(lst[i])
+#
+# for i in range(1, 10, 2):
+#     print(i)
+
+# lst = [1, 2, 3, 4, 5]
+#
+#
+# lst = list(map(int, input().split()))
+#
+# for i in range(len(lst)):
+#     element = lst[i]
+#     print(element)
+
+# список замен для соответствующих русских букв
+
+r = range(5)
+it = iter(r)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+
