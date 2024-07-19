@@ -315,11 +315,59 @@
 
 # список замен для соответствующих русских букв
 
-r = range(5)
-it = iter(r)
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
+# str = "osnovnye---metody-----------spiska----------------hjgcvfgcgfccfg"
+# str_2 = str.replace("-", " ")
+# lst = str_2.split()
+# str_3 = ""
+# while len(lst) > 0:
+#     str_3 += lst.pop(0) + "-"
+#
+# str_3 = str_3[:-1]
+# print(str)
 
+# numbers = "Hello World"
+# lst = numbers.split()
+# for item in lst:
+#     print(item)
+
+# original_list = ["Hello", "World", "Python"]
+# new_list = []
+#
+# for string in original_list:
+#     first_letter = string[0]
+#     new_list.append(first_letter)
+#
+# print(new_list)
+
+# lst1 = [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6]]
+# lst2 = [[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]]
+#
+# r_lst = []
+# for i in range(len(lst1)):
+#     sublist = []
+#     for j in range(len(lst2[i])):
+#         sublist.append(lst1[i][j] + lst2[i][j])
+#     r_lst.append(sublist)
+# print(r_lst)
+#
+# lst = [ "Я   помню  чудное    мгновенье",
+# "Передо  мной    явилась   ты",
+# "Как    мимолетное   виденье",
+# "Как     гений   чистой  красоты"]
+#
+# for index, line in enumerate(lst):
+#     while lst[index].count("  "):
+#         lst[index] = lst[index].replace("  ", " ")
+#
+# print(lst)
+
+lst = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+
+for i in range(len(lst)):
+    for j in range(i + 1, len(lst)):
+        lst[i][j], lst[j][i] = lst[j][i], lst[i][j]
+
+for row in lst:
+    for number in row:
+        print(number, end='\t')
+    print()
