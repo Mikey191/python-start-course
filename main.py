@@ -361,13 +361,97 @@
 #
 # print(lst)
 
-lst = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+# lst = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+#
+# for i in range(len(lst)):
+#     for j in range(i + 1, len(lst)):
+#         lst[i][j], lst[j][i] = lst[j][i], lst[i][j]
+#
+# for row in lst:
+#     for number in row:
+#         print(number, end='\t')
+#     print()
 
-for i in range(len(lst)):
-    for j in range(i + 1, len(lst)):
-        lst[i][j], lst[j][i] = lst[j][i], lst[i][j]
+# str = "Москва Уфа Караганда Тверь Минск Казань"
+# lst = str.split() # ['Москва', 'Уфа', 'Караганда', 'Тверь', 'Минск', 'Казань']
+# for index in range(len(lst)):
+#     print(index)
+# print(lst)
 
-for row in lst:
-    for number in row:
-        print(number, end='\t')
-    print()
+
+# lst = [1, 2, 3, 4, 5]
+# number_zero = 0
+# lst[0] = number_zero
+# print(lst)
+
+# i = 0
+# while i < 10:
+#     if i == 5:
+#         break
+#     print(i)
+#     i += 1
+
+# number = 5
+# factorial = 1
+#
+# for i in range(1, number + 1):
+#     factorial = factorial * i
+#     print(factorial)
+
+
+# words = ["Python", "JavaScript", "C++", "Java", "TypeScript", "PHP", "Rust", "Go"]
+# str = ''
+# for word in words:
+#     str += ' ' + word
+#
+# print(str.strip())
+
+# digs = [4, 3, 100, -53, -30, 1, 34, -8]
+# for index in range(len(digs)):
+#     if 10 <= abs(digs[index]) <= 99:
+#         digs[index] = 0
+# print(digs)
+
+# digs = [4, 3, 100, -53, -30, 1, 34, -8]
+#
+# for i, d in enumerate(digs):
+#     if 10 <= abs(d) <= 99:
+#         digs[i] = 0
+#
+# print(digs)
+
+# список замен для соответствующих русских букв
+# t = ['a', 'b', 'v', 'g', 'd', 'e', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'h', 'c', 'ch', 'sh',
+#      'shch', '', 'y', '', 'e', 'yu', 'ya']
+# # кодовое значение для первой буквы этого списка
+# start_index = ord('а')
+# print(start_index)
+# # зададим строку и переменную slug, где будем формировать строку на латинице
+# title = "Программирование------на Python - лучшее занятие"
+# slug = ''
+# #  преобразование в цикле, перебирая каждый символ исходной строки
+# for s in title.lower():
+#     if 'а' <= s <= 'я':
+#         slug += t[ord(s) - start_index]
+#     elif s == 'ё':
+#         slug += 'yo'
+#     elif s in ' !?:,.':
+#         slug += '-'
+#     else:
+#         slug += s
+# # удалим все подряд идущие символы дефиса
+# while slug.count('--'):
+#     slug = slug.replace('--', '-')
+# # выводим результат
+# print(slug)
+#
+# count = 0
+# while True:
+#     if count == 5:
+#         break
+#     count += 1
+
+# Создание списка с парами чисел от 1 до 3
+pairs = [(x, y, z) for x in range(1, 4) for y in range(1, 4) for z in range(1,4)]
+# Результат: [(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
+print(pairs)
