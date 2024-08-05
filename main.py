@@ -841,3 +841,12 @@
 #     students[index].append(round(sum(students[index][2:]) / len(students[index][2:]), 1))
 # print(students)
 
+
+# str = "+71234567890 +71234567854 +61234576890 +52134567890 +21235777890 +21234567110 +71232267890"
+# lst = str.split()
+# d = dict()
+# for number in lst:
+#     d[number[:2]] = [lst_number for lst_number in lst if lst_number[:2] == number[:2]]
+#
+# print(d)
+
