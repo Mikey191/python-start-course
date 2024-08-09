@@ -849,5 +849,29 @@
 #     d[number[:2]] = [lst_number for lst_number in lst if lst_number[:2] == number[:2]]
 #
 # print(d)
+#
+# my_list = [1, 2, 2, 3, 4, 4, 5]
+# unique_values = {x for x in my_list}
+# print(unique_values)  # {1, 2, 3, 4, 5}
+
+# my_dict = {"неудовл.": 2, "удовл.": 3, "хорошо": '4', "отлично": '5'}
+# capitalized_dict = {key.upper(): value for key, value in my_dict.items()}
+# print(capitalized_dict)
+# # {'НЕУДОВЛ.': 2, 'УДОВЛ.': 3, 'ХОРОШО': '4', 'ОТЛИЧНО': '5'}
+
+# my_dict = {
+#     "name": "Alice",
+#     "age": 30,
+#     "city": "New York"
+# }
+#
+# for obj in my_dict:
+#     print(obj)
+#
+# for key in my_dict.keys():
+#     print(key)
+#
+# for value in my_dict.values():
+#     print(value)
 
 
